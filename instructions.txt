@@ -1,0 +1,19 @@
+To run:
+run command     gcc bankers_algorithm.c -o bankers_algorithm
+run command     ./bankers_algorithm -r [m] -p [n]
+    where:
+            m is the number of resources
+            n is the number of processes
+
+You will then be prompted to enter:
+    The number of units for each resource m and
+    The number of units each process n claims from each resource m
+
+
+To make a request:
+type    request(i, j, k)
+    i is the process number, j is the resource number, and k is the number of units that process i is requesting from resource j
+
+To make a release:
+type    release(i, j, k)
+    i is the process number, j is the resource number, and k is the number of units that process i is releasing from resource j
